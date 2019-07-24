@@ -1,0 +1,6 @@
+com\example\demo\MessageConsumer.class
+com\example\demo\MessageProducer.class
+com\example\demo\receiver\MessageReceiver.class
+com\example\demo\MessageListener.class
+com\example\demo\sender\MessageService.class
+com\example\demo\config\MessageConfig.class
