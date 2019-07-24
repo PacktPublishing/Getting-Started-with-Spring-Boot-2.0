@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>JPA Test</title>
+</head>
+<body>
+<h1>This is a JPA Test</h1>
+<table>
+<tr><th>ID</th><th>firstname</th><th>lastname</th>
+</tr>
+<tr th:each="person: ${personlist}">
+	<td th:text="${person.id}"></td>
+	<td th:text="${person.firstName}"></td>
+	<td th:text="${person.lastName}"></td>
+</tr>
+</table>
+</body>
+</html>
