@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Hello MVC App!</title>
+</head>
+<body>
+<h1>Hello MVC App!</h1>
+<form action="#" method="POST" th:object="${usergreeting}" th:action="@{/}">
+Your name: <input type="text" th:field="*{name}"/>
+<input type="submit" value = "greet!"/>
+</form>
+<th:block th:if="${user!=null}">
+<p> Hello : <span th:utext="${user}"></span> !</p>
+</th:block>
+
+</body>
+</html>
