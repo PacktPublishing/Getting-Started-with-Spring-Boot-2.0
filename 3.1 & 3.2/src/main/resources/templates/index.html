@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" 
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+<meta charset="ISO-8859-1">
+<title>Spring Security</title>
+</head>
+<body>
+<div th:fragment="logout" sec:authorize="isAuthenticated()">
+Logged in user:<span sec:authentication="name"></span> |
+Roles : <span sec:authentication="principal.authorities"></span>
+<div>
+<form action="#" th:action="@{/logout}" method="POST"></form>
+<input type="submit" value="logout" />
+</div>
+</div>
+<h1>Hello Spring security</h1>
+<p> this is an unsecured page, but you can access the secured pages after 
+authenticating.
+</p>
+<ul>
+<li> Go to the <a href="/user/index" th:href="@{/user/index}">secured pages</a></li>
+</ul>
+</body>
+</html>
