@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org"
+xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+<meta charset="ISO-8859-1">
+<title>Login page</title>
+</head>
+<body>
+<h1>Login page</h1>
+<p>Example User: user/password</p>
+<p th:if="${loginError}"> Wrong user or password</p>
+<form	th:action="@{/login}" method="post">
+<label for="username">Username</label>
+<input type="text" id="username" name="username"/>
+<br>
+<label for="password">password</label>
+<input type="password" id="password" name="password" />
+<br>
+<input type="submit" value="log in" />
+</form>
+<p><a href="/index" th:href="@{/index}">Back to homepage</a></p>
+</body>
+</html>

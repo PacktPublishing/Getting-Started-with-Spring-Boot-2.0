@@ -1,0 +1,30 @@
+2019-05-07 14:36:36.071  INFO 1048 --- [main] com.example.demo.Section3Application     : Starting Section3Application on auenland with PID 1048 (C:\Users\lara\gettingstarted\Section3\target\classes started by lara in C:\Users\lara\gettingstarted\Section3)
+2019-05-07 14:36:36.071  INFO 1048 --- [main] com.example.demo.Section3Application     : Starting Section3Application on auenland with PID 1048 (C:\Users\lara\gettingstarted\Section3\target\classes started by lara in C:\Users\lara\gettingstarted\Section3)
+2019-05-07 14:36:36.074 DEBUG 1048 --- [main] com.example.demo.Section3Application     : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 14:36:36.074 DEBUG 1048 --- [main] com.example.demo.Section3Application     : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 14:36:36.074  INFO 1048 --- [main] com.example.demo.Section3Application     : The following profiles are active: french
+2019-05-07 14:36:36.074  INFO 1048 --- [main] com.example.demo.Section3Application     : The following profiles are active: french
+2019-05-07 14:36:37.595  INFO 1048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-07 14:36:37.625  INFO 1048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-07 14:36:37.626  INFO 1048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-07 14:36:37.760  INFO 1048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-07 14:36:37.761  INFO 1048 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1632 ms
+2019-05-07 14:36:38.018  WARN 1048 --- [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2019-05-07 14:36:38.421  INFO 1048 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-07 14:36:38.590  INFO 1048 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-07 14:36:38.799  INFO 1048 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a389173, org.springframework.security.web.context.SecurityContextPersistenceFilter@52a70627, org.springframework.security.web.header.HeaderWriterFilter@56303475, org.springframework.security.web.csrf.CsrfFilter@52b6319f, org.springframework.security.web.authentication.logout.LogoutFilter@51dbd6e4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9d200de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19569ebd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@652ab8d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@213860b8, org.springframework.security.web.session.SessionManagementFilter@1dcca8d3, org.springframework.security.web.access.ExceptionTranslationFilter@6b68cb27, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@588cd519]
+2019-05-07 14:36:38.915  INFO 1048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-07 14:36:38.922  INFO 1048 --- [main] com.example.demo.Section3Application     : Started Section3Application in 3.687 seconds (JVM running for 5.067)
+2019-05-07 14:36:38.922  INFO 1048 --- [main] com.example.demo.Section3Application     : Started Section3Application in 3.687 seconds (JVM running for 5.067)
+2019-05-07 14:36:52.950  INFO 1048 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-07 14:36:52.957  INFO 1048 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-07 14:36:52.972  INFO 1048 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-05-07 14:36:53.041 DEBUG 1048 --- [http-nio-8080-exec-2] com.example.demo.MainController          : root path
+2019-05-07 14:36:53.041 DEBUG 1048 --- [http-nio-8080-exec-2] com.example.demo.MainController          : root path
+2019-05-07 14:36:53.260 DEBUG 1048 --- [http-nio-8080-exec-2] com.example.demo.MainController          : index path
+2019-05-07 14:36:53.260 DEBUG 1048 --- [http-nio-8080-exec-2] com.example.demo.MainController          : index path
+2019-05-07 14:37:01.498 DEBUG 1048 --- [http-nio-8080-exec-5] com.example.demo.MainController          : user/index path
+2019-05-07 14:37:01.498 DEBUG 1048 --- [http-nio-8080-exec-5] com.example.demo.MainController          : user/index path
+2019-05-07 14:37:01.503  WARN 1048 --- [http-nio-8080-exec-5] o.t.s.p.StandardSubstituteByTagProcessor : [THYMELEAF][http-nio-8080-exec-5][user/index] Deprecated attribute {th:substituteby,data-th-substituteby} found in template user/index, line 8, col 6. Please use {th:replace,data-th-replace} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2019-05-07 14:37:09.990  INFO 1048 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-05-07 14:37:09.992  INFO 1048 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
